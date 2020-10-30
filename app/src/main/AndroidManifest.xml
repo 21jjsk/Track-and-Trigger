@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.todo">
+
+    <uses-permission-sdk-23 android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/grayscale_front"
+        android:roundIcon="@mipmap/grayscale_front"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/globalTheme">
+        <activity android:name=".ImportantTasks"
+            android:theme="@style/listActivityTheme"/>
+        <activity android:name=".DueTomorrow"
+            android:theme="@style/listActivityTheme"/>
+        <activity android:name=".DueToday"
+            android:theme="@style/listActivityTheme"/>
+        <activity
+            android:name=".ListActivity"
+            android:theme="@style/listActivityTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".HomePage"
+            android:theme="@style/globalTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AddUsername"
+            android:theme="@style/globalTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Notification Pending Alarm Receiver-->
+        <receiver android:name="AlarmHelpers.AlarmReceiver" />
+
+        <!--Notification Action Pending Alarm Receiver-->
+        <receiver android:name="AlarmHelpers.NotificationActionReceiver" />
+
+        <!--Boot Completed Alarm Receiver-->
+        <receiver android:name="AlarmHelpers.BootReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!--widget receiver-->
+        <receiver android:name="AlarmHelpers.WidgetHelper"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+    </application>
+
+</manifest>
