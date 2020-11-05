@@ -2,6 +2,7 @@
 
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,10 +12,9 @@
 
     <LinearLayout
         android:orientation="vertical"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HomePage">
+        tools:context=".todo_HomePage">
 
 
         <androidx.appcompat.widget.Toolbar
@@ -40,6 +40,13 @@
             app:layout_constraintTop_toBottomOf="@+id/homepage_toolbar" />
 
 
+        <Button
+            android:id="@+id/button_to_inventory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goto_inventory"
+            android:text="Go To Inventory" />
+
         <View
             android:id="@+id/homepage_list_divider"
             android:layout_width="match_parent"
@@ -51,7 +58,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/homepage_persistent_todo_recycler" />
-
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/homepage_dynamic_todo_recycler"

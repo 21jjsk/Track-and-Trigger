@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".ListActivity">
+        tools:context=".todo_ListActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/todos_tasks_recycler"

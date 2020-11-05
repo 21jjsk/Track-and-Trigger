@@ -3,7 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.todo">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission-sdk-23 android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<!--    <uses-permission android:name="android.permission.SEND_SMS" />-->
+<!--    <uses-feature android:name="android.hardware.telephony"-->
+<!--        android:required="true"/>-->
 
     <application
         android:allowBackup="true"
@@ -12,22 +18,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/globalTheme">
-        <activity android:name=".ImportantTasks"
+
+
+
+        <activity android:name=".todo_ImportantTasks"
             android:theme="@style/listActivityTheme"/>
-        <activity android:name=".DueTomorrow"
+        <activity android:name=".todo_DueTomorrow"
             android:theme="@style/listActivityTheme"/>
-        <activity android:name=".DueToday"
+        <activity android:name=".todo_DueToday"
             android:theme="@style/listActivityTheme"/>
         <activity
-            android:name=".ListActivity"
+            android:name=".todo_ListActivity"
             android:theme="@style/listActivityTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".HomePage"
+            android:name=".todo_HomePage"
             android:theme="@style/globalTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".AddUsername"
+            android:name=".todo_AddUsername"
             android:theme="@style/globalTheme"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -36,14 +45,38 @@
             </intent-filter>
         </activity>
 
+        <!-- Inventory manifest -->
+        <activity android:name=".inventorymanager.MainActivity"
+            android:theme="@style/AppTheme">
+<!--           changed here app theme line        -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inventorymanager.DetailsActivity"
+            android:label="@string/new_product"
+            android:theme="@style/AppTheme">
+<!--           changed here app theme line        -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".inventorymanager.MainActivity" />
+        </activity>
+        <!-- Inventory manifest -->
+
         <!--Notification Pending Alarm Receiver-->
-        <receiver android:name="AlarmHelpers.AlarmReceiver" />
+        <receiver android:name="AlarmHelpers.todo_AlarmReceiver" />
 
         <!--Notification Action Pending Alarm Receiver-->
-        <receiver android:name="AlarmHelpers.NotificationActionReceiver" />
+        <receiver android:name="AlarmHelpers.todo_NotificationActionReceiver" />
 
         <!--Boot Completed Alarm Receiver-->
-        <receiver android:name="AlarmHelpers.BootReceiver"
+        <receiver android:name="AlarmHelpers.todo_BootReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -51,7 +84,7 @@
         </receiver>
 
         <!--widget receiver-->
-        <receiver android:name="AlarmHelpers.WidgetHelper"
+        <receiver android:name="AlarmHelpers.todo_WidgetHelper"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
