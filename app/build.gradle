@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.todo"
-        minSdkVersion 29
+        minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -42,6 +42,8 @@ dependencies {
     implementation 'com.balysv:material-ripple:1.0.2'
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'com.github.lguipeng:AnimCheckBox:1.0.1'
-
+    implementation files('libs/activation.jar')
+    implementation files('libs/mail.jar')
+    implementation files('libs/additionnal.jar')
 
 }

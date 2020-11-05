@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">To Do</string>
+    <string name="app_name">Tracker</string>
     <string name="empty_group_placeholder">There\'s nothing here!</string>
-    <string name="add_username_hint">enter your username...</string>
+    <string name="add_username_hint">Enter your username....</string>
     <string name="add_list_static">Add List</string>
     <string name="add_new_list_hint">Enter List Name</string>
     <string name="selectList">Select a list</string>
@@ -21,7 +21,42 @@
     <string name="important">Important</string>
     <string name="changeUsername">Change Username</string>
     <string name="enterNewUsername">Enter New Username below</string>
-    <string name="cancel">CANCEL</string>
-    <string name="change">CHANGE</string>
+<!--    <string name="cancel">CANCEL</string>-->
+    <string name="change">Change</string>
+    
+    <!-- inventory buttons -->
+    <string name="sale_button">Sale</string>
+    <string name="new_product">Add new item</string>
+    <string name="hint_email_address">supplier@gmail.com</string>
+    <string name="supplier_email_title">Supplier E-mail Address</string>
+    <string name="supplier_phone_hint">e.g. +91 00000-00000</string>
+    <string name="supplier_phone_title">Supplier Phone</string>
+    <string name="supplier_name_hint">XYZ Supplier</string>
+    <string name="supplier_name_title">Supplier Name</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="price_title">Price</string>
+    <string name="product_name_title">Product Name</string>
+    <string name="currency_details">¥ / item</string>
+    <string name="action_save">Save item</string>
+    <string name="editor_activity_title_new_item">Add new item</string>
+    <string name="editor_activity_title_edit_item">Edit item</string>
+    <string name="menu_order_item">Order more</string>
+    <string name="menu_delete_item">Delete item</string>
+    <string name="menu_delete_all_data">Delete all data</string>
+    <string name="menu_share">Share Item</string>
+    <string name="phone">Phone</string>
+    <string name="email">E-mail</string>
+    <string name="order_message">You can place an order for this item by phone or e-mail</string>
+    <string name="delete_message">Are you sure you want to proceed with the deletion?</string>
+    <string name="delete">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_list_hint">Start adding some items to your inventory</string>
+    <string name="action_add_dummy_data">Add Dummy Data</string>
+    <string name="select_image">Select image</string>
+    <string name="image">Image</string>
+    <string name="unsaved_changes_dialog_msg">There are unsaved changes in the product information. Do you want to continue?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <!-- inventory buttons -->
 
 </resources>
