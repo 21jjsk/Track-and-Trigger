@@ -40,13 +40,6 @@
             app:layout_constraintTop_toBottomOf="@+id/homepage_toolbar" />
 
 
-        <Button
-            android:id="@+id/button_to_inventory"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="goto_inventory"
-            android:text="Go To Inventory" />
-
         <View
             android:id="@+id/homepage_list_divider"
             android:layout_width="match_parent"

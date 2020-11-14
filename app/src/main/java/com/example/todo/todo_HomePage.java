@@ -70,16 +70,6 @@ public class todo_HomePage extends AppCompatActivity {
         loadFromDB();
 
         create_notification_channel();
-        //Editing
-        final Button bb= (Button) findViewById(R.id.button_to_inventory);
-        bb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(todo_HomePage.this, MainActivity.class);
-                startActivity(i);
-            }
-        });
-        //Editing
         //set_daily_today_alarm();
     }
 
@@ -258,6 +248,7 @@ public class todo_HomePage extends AppCompatActivity {
         persistentList.add(new todo_ListObject(-200,"Today", R.drawable.icon_today, false));
         persistentList.add(new todo_ListObject(-400, "Tomorrow", R.drawable.icon_tomorrow, false));
         persistentList.add(new todo_ListObject(-600, "Important", R.drawable.icon_star, false));
+        persistentList.add(new todo_ListObject(-800, "Inventory", R.drawable.icon_shopping_cart, false));
         persistentAdapter.notifyDataSetChanged();
 
         //load user added lists
