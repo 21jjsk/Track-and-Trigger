@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84422308216",
+    "firebase_url": "https://tracktrigger-ccaf2.firebaseio.com",
+    "project_id": "tracktrigger-ccaf2",
+    "storage_bucket": "tracktrigger-ccaf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84422308216:android:f89cc8dcc60885097fd88d",
+        "android_client_info": {
+          "package_name": "com.example.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84422308216-brsoa1jfkqv33ju90103so0vcmesbelf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZGWleGJ_M4L80cba2LJbpOu3ygZrl1x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84422308216-brsoa1jfkqv33ju90103so0vcmesbelf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Tracker</string>
     <string name="empty_group_placeholder">There\'s nothing here!</string>
-    <string name="add_username_hint">Enter your username....</string>
+    <string name="add_username_hint">Enter your nickname....</string>
     <string name="add_list_static">Add List</string>
     <string name="add_new_list_hint">Enter List Name</string>
     <string name="selectList">Select a list</string>

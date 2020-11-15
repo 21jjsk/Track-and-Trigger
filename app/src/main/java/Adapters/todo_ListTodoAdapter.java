@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.todo.inventorymanager.MainActivity;
 import com.example.todo.todo_DueToday;
 import com.example.todo.todo_DueTomorrow;
 import com.example.todo.todo_ImportantTasks;
@@ -68,6 +69,14 @@ public class todo_ListTodoAdapter extends RecyclerView.Adapter<todo_ListTodoAdap
                 else if (list.get(position).getId() == -600) {
                     //Important Activity Intent
                     Intent intent = new Intent(context, todo_ImportantTasks.class);
+                    Activity activity = (Activity) context;
+                    activity.startActivity(intent);
+                    activity.overridePendingTransition(R.anim.to_list_activity, R.anim.to_list_activity);
+                }
+
+                else if (list.get(position).getId() == -800) {
+                    //Important Activity Intent
+                    Intent intent = new Intent(context, MainActivity.class);
                     Activity activity = (Activity) context;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.to_list_activity, R.anim.to_list_activity);
