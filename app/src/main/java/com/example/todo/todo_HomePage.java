@@ -96,6 +96,12 @@ public class todo_HomePage extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        startActivity(intent);
+    }
 
     private void assignUIcomponents() {
         //set Toolbar and toolbar title
