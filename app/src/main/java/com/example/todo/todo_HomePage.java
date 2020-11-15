@@ -96,12 +96,7 @@ public class todo_HomePage extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(Intent.ACTION_MAIN);
-        intent.addCategory(Intent.CATEGORY_HOME);
-        startActivity(intent);
-    }
+
 
     private void assignUIcomponents() {
         //set Toolbar and toolbar title
@@ -128,6 +123,13 @@ public class todo_HomePage extends AppCompatActivity {
         //adapter for dynamic list
         dynamicAdapter = new todo_ListTodoAdapter(todo_HomePage.this, R.layout.list_todo, dynamicList);
         dynamicRecycler.setAdapter(dynamicAdapter);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        startActivity(intent);
     }
 
 
