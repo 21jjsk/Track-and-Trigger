@@ -108,102 +108,102 @@ public class MainActivity extends AppCompatActivity {
     private void addDummyData() {
         StockItem gummibears = new StockItem(
             "Gummibears",
-                "10 €",
+                "₹10",
                 45,
-                "Haribo GmbH",
-                "+49 000 000 0000",
-                "haribo@sweet.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/gummibear");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/gummibear");
         dbHelper.insertItem(gummibears);
 
         StockItem peaches = new StockItem(
                 "Peaches",
-                "10 €",
+                "₹10",
                 24,
-                "Haribo GmbH",
-                "+49 000 000 0000",
-                "haribo@sweet.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/peach");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/peach");
         dbHelper.insertItem(peaches);
 
         StockItem cherries = new StockItem(
                 "Cherries",
-                "11 €",
+                "₹11",
                 74,
-                "Haribo GmbH",
-                "+49 000 000 0000",
-                "haribo@sweet.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/cherry");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/cherry");
         dbHelper.insertItem(cherries);
 
         StockItem cola = new StockItem(
                 "Cola",
-                "13 €",
+                "₹13",
                 44,
-                "Haribo GmbH",
-                "+49 000 000 0000",
-                "haribo@sweet.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/cola");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/cola");
         dbHelper.insertItem(cola);
 
         StockItem fruitSalad = new StockItem(
                 "Fruit salad",
-                "20 €",
+                "₹20",
                 34,
-                "Haribo GmbH",
-                "+49 000 000 0000",
-                "haribo@sweet.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/fruit_salad");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/fruit_salad");
         dbHelper.insertItem(fruitSalad);
 
         StockItem smurfs = new StockItem(
                 "Smurfs",
-                "12 €",
+                "₹11",
                 26,
-                "Haribo GmbH",
-                "+49 000 000 0000",
-                "haribo@sweet.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/smurfs");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/smurfs");
         dbHelper.insertItem(smurfs);
 
         StockItem fresquito = new StockItem(
                 "Fresquito",
-                "9 €",
+                "₹9",
                 54,
-                "Fiesta S.A.",
-                "+34 000 000 0000",
-                "fiesta@dulce.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/fresquito");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/fresquito");
         dbHelper.insertItem(fresquito);
 
         StockItem hotChillies = new StockItem(
                 "Hot chillies",
-                "13 €",
+                "₹13",
                 12,
-                "Fiesta S.A.",
-                "+34 000 000 0000",
-                "fiesta@dulce.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/hot_chillies");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/hot_chillies");
         dbHelper.insertItem(hotChillies);
 
         StockItem lolipopStrawberry = new StockItem(
                 "Lolipop strawberry",
-                "12 €",
+                "₹12",
                 62,
-                "Fiesta S.A.",
-                "+34 000 000 0000",
-                "fiesta@dulce.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/lolipop");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/lolipop");
         dbHelper.insertItem(lolipopStrawberry);
 
         StockItem heartGummy = new StockItem(
                 "Heart gummy jellies",
-                "13 €",
+                "₹13",
                 22,
-                "Fiesta S.A.",
-                "+34 000 000 0000",
-                "fiesta@dulce.com",
-                "android.resource://com.example.todo.inventorymanager/drawable/heart_gummy");
+                "ABC suppliers",
+                "+91 9800000000",
+                "abc@gmail.com",
+                "android.resource://com.example.todo/drawable/heart_gummy");
         dbHelper.insertItem(heartGummy);
     }
 }

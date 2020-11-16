@@ -31,10 +31,11 @@ public class todo_ThemeObject {
 
     public int getPrimaryAccentForTheme() {
         switch (imageRes) {
+            case R.drawable.books1:
+                return R.color.black;
             case R.drawable.office3:
                 return R.color.white;
-            case R.drawable.books1:
-                return R.color.white;
+
             case R.drawable.books2:
                 return R.color.white;
             case R.drawable.books3:
@@ -76,7 +77,7 @@ public class todo_ThemeObject {
             case R.drawable.office1:
                 return R.color.white;
             case R.drawable.office2:
-                return R.color.white;
+                return R.color.black;
             case R.drawable.office4:
                 return R.color.green_cream;
             case R.drawable.plain1:
@@ -103,10 +104,11 @@ public class todo_ThemeObject {
 
     public int getSecondaryAccentForTheme() {
         switch (imageRes) {
-            case R.drawable.office3:
-                return R.color.white;
             case R.drawable.books1:
                 return R.color.teal_blue;
+            case R.drawable.office3:
+                return R.color.white;
+
             case R.drawable.books2:
                 return R.color.white;
             case R.drawable.books3:
