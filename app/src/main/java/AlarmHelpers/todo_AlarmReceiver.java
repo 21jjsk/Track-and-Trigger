@@ -116,8 +116,9 @@ public class todo_AlarmReceiver extends BroadcastReceiver {
         // Editing
             String sEmail = "notification.sender.email@gmail.com";
             String sPassword = "ABC123!!";
-            String To = "21jjsk@gmail.com";
-            String Subject = "REMINDER: ";
+            //String To = "21jjsk@gmail.com";
+            String To = "heenabaraiya72@gmail.com";
+            String Subject = "REMINDER: You have a pending task....";
             String Message = reminder.getTaskDescription();
 
             Properties properties = new Properties();

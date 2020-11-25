@@ -238,22 +238,22 @@ public class DetailsActivity extends AppCompatActivity {
 
     private boolean addItemToDb() {
         boolean isAllOk = true;
-        if (!checkIfValueSet(nameEdit, "name")) {
+        if (!checkIfValueSet(nameEdit, "Name of item")) {
             isAllOk = false;
         }
-        if (!checkIfValueSet(priceEdit, "price")) {
+        if (!checkIfValueSet(priceEdit, "Price in ₹")) {
             isAllOk = false;
         }
-        if (!checkIfValueSet(quantityEdit, "quantity")) {
+        if (!checkIfValueSet(quantityEdit, "Quantity")) {
             isAllOk = false;
         }
-        if (!checkIfValueSet(supplierNameEdit, "supplier name")) {
+        if (!checkIfValueSet(supplierNameEdit, "Supplier name")) {
             isAllOk = false;
         }
-        if (!checkIfValueSet(supplierPhoneEdit, "supplier phone")) {
+        if (!checkIfValueSet(supplierPhoneEdit, "Supplier phone")) {
             isAllOk = false;
         }
-        if (!checkIfValueSet(supplierEmailEdit, "supplier email")) {
+        if (!checkIfValueSet(supplierEmailEdit, "Supplier email")) {
             isAllOk = false;
         }
         if (actualUri == null && currentItemId == 0) {
@@ -440,6 +440,7 @@ public class DetailsActivity extends AppCompatActivity {
         // If the request code seen here doesn't match, it's the response to some other intent,
         // and the below code shouldn't run at all.
 
+        super.onActivityResult(requestCode, resultCode, resultData);
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK) {
             // The document selected by the user won't be returned in the intent.
             // Instead, a URI to that document will be contained in the return intent
