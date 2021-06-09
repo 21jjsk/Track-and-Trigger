@@ -5,6 +5,7 @@ Nowadays, due to hectic work schedules, it is quite difficult to remember as wel
 Thereby, we have put in efforts in developing an automated <u>android application</u> (completely in **JAVA**) in order to keep track of the regular activities and aid people in managing the daily home inventories.
 
 This project was created as a part of the Object Oriented Programming Systems Course.
+
 **Team members**
 * [Jeevan Jyot Singh](https://github.com/21jjsk)
 * [Kruti Baraiya](https://github.com/krutibaraiya)
