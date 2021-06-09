@@ -27,8 +27,8 @@ We have provided the following three functionalities for verification & login:- 
 - via Phone number <br />
 - via Google <br />
 <div align="center">
-|<img src="/images/image2.jpg" alt="Login" width="225"/>|
-|---------------------|
+  |<img src="/images/image2.jpg" alt="Login" width="225"/>|
+  |---------------------|
 </div>
   
 - ## Dashboard
