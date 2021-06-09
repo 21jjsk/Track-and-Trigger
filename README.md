@@ -10,6 +10,11 @@ This project was created as a part of the Object Oriented Programming Systems Co
 * [Jeevan Jyot Singh](https://github.com/21jjsk)
 * [Kruti Baraiya](https://github.com/krutibaraiya)
 
+## Technologies used:
+- Java
+- Sqlite
+- Firebase Auth
+
 ## Android Requirements:
 
 minSDK Version 28, Target SDK Version 30
