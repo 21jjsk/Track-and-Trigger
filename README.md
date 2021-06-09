@@ -11,7 +11,7 @@ minSDK Version 28, Target SDK Version 30
 
 ## Flow of our Application
 
-<img  src="/images/image7.png" alt="Flow" width="400"/>
+<img  src="/images/image7.png" alt="Flow" width="500"/>
 
 - ## Login
 
