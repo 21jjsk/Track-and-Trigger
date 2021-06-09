@@ -26,9 +26,11 @@ We have provided the following three functionalities for verification & login:- 
 - via Email <br />
 - via Phone number <br />
 - via Google <br />
-                                                    |<img src="/images/image2.jpg" alt="Login" width="225"/>|
-                                                                      |---------------------|
-
+<div align="center">
+|<img src="/images/image2.jpg" alt="Login" width="225"/>|
+|---------------------|
+</div>
+  
 - ## Dashboard
 
 After logging in by any of the 3 ways above, we will navigate to the Dashboard screen. In the dashboard, the user can add and customize lists according to his/her needs and preferences. User can customise the background and the icon of the list as he desires.
