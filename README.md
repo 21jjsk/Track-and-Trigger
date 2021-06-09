@@ -24,7 +24,7 @@ We have provided the following three functionalities for verification & login:- 
 
 <img src="/images/image2.jpg" alt="Login" width="250"/>
 
-## Dashboard
+- ## Dashboard
 
 After logging in by any of the 3 ways above, we will navigate to the Dashboard screen. In the dashboard, the user can add and customize lists according to his/her needs and preferences. User can customise the background and the icon of the list as he desires.
 
@@ -32,7 +32,7 @@ After logging in by any of the 3 ways above, we will navigate to the Dashboard s
 | ------------------------------------ | ------------------------------------ | -------------------------------- |
 | Static lists | Adding lists | Dashboard |
 
-## Adding items to a list
+- ## Adding items to a list
 
 The user can add tasks or notes in any particular list and set reminder for that task
 at any particular time. The tasks which are scheduled for today would be shown in red color and those scheduled for tomorrow would be shown in orange color. Any other tasks would be shown in (default) white color. Once completed, the user can mark the task as done. Also the user can star any task i.e. mark it as important.
@@ -41,14 +41,14 @@ at any particular time. The tasks which are scheduled for today would be shown i
 | ---------------------------------- | -------------------------------- | ---------------------------------------- |
 | Adding task | View tasks | Mark task as done |
 
-## Reminders
+- ## Reminders
 
 The user would receive reminders through email and mobile notification at the desired time.
 
 <!-- ![Reminder](/images/.jpg) -->
 <img src="/images/image19.jpg" alt="Reminder" width="250"/>
 
-## Prioritize tasks
+- ## Prioritize tasks
 
 The app offers three automated lists for better and quicker management.
 
@@ -65,3 +65,17 @@ The app offers three automated lists for better and quicker management.
 
 | <img src="/images/image13.jpg" alt="Tomorrow" width="250"/> |
 | ----------------------------------------------------------- |
+
+
+- ## Inventory
+
+- #### The user can maintain a record of any items and materials in the tracker/inventory section of this application.
+
+| <img src="/images/image6.jpg" alt="Tracker" width="250"/> | <img src="/images/image4.jpg" alt="Tracker with items" width="250"/> | <img src="/images/image17.jpg" alt="Adding items" width="250"/> |
+| ---------------------------------- | -------------------------------- | ---------------------------------------- |
+<!-- | Tracker | Tracker with items | Mark task as done | -->
+
+- #### The user can also share the details of any item through other social media apps.
+
+|<img src="/images/image15.jpg" alt="Sharing item" width="250"/>|
+|---------------|
