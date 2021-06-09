@@ -28,10 +28,7 @@ We have provided the following three functionalities for verification & login:- 
 
 After logging in by any of the 3 ways above, we will navigate to the Dashboard screen. In the dashboard, the user can add and customize lists according to his/her needs and preferences. User can customise the background and the icon of the list as he desires.
 
-| <img src="/images/image22.jpg" alt="Static Lists" width="250"/>
-| <img src="/images/image18.jpg" alt="Adding lists" width="250"/>
-| <img src="/images/image3.jpg" alt="Dashboard" width="250"/>
-|
+| <img src="/images/image22.jpg" alt="Static Lists" width="250"/> | <img src="/images/image18.jpg" alt="Adding lists" width="250"/> | <img src="/images/image3.jpg" alt="Dashboard" width="250"/> |
 | ------------------------------------ | ------------------------------------ | -------------------------------- |
 | Static lists | Adding lists | Dashboard |
 
