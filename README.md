@@ -22,7 +22,7 @@ We have provided the following three functionalities for verification & login:- 
 - via Phone number <br />
 - via Google <br />
 
-<img src="/images/image2.jpg" alt="Login" width="300"/>
+<img src="/images/image2.jpg" alt="Login" width="250"/>
 
 ## Dashboard
 
@@ -46,7 +46,7 @@ at any particular time. The tasks which are scheduled for today would be shown i
 The user would receive reminders through email and mobile notification at the desired time.
 
 <!-- ![Reminder](/images/.jpg) -->
-<img src="/images/image19.jpg" alt="Reminder" width="300"/>
+<img src="/images/image19.jpg" alt="Reminder" width="250"/>
 
 ## Prioritize tasks
 
@@ -63,5 +63,5 @@ The app offers three automated lists for better and quicker management.
 | ---------------------- | ------------------------- | -------------------------- |
 | Today's tasks          | Tomorrow's tasks          | Important tasks            | -->
 
-| <img src="/images/image13.jpg" alt="Tomorrow" width="300"/> |
+| <img src="/images/image13.jpg" alt="Tomorrow" width="250"/> |
 | ----------------------------------------------------------- |
