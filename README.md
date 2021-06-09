@@ -45,7 +45,8 @@ at any particular time. The tasks which are scheduled for today would be shown i
 
 The user would receive reminders through email and mobile notification at the desired time.
 
-<img src="/images/image19.jpg" alt="Reminder" width="250"/>
+| <img src="/images/image19.jpg" alt="Reminder" width="250"/> |
+| ---------------------------------- |
 
 - ## Prioritize tasks
 
