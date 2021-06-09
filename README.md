@@ -40,10 +40,7 @@ After logging in by any of the 3 ways above, we will navigate to the Dashboard s
 The user can add tasks or notes in any particular list and set reminder for that task
 at any particular time. The tasks which are scheduled for today would be shown in red color and those scheduled for tomorrow would be shown in orange color. Any other tasks would be shown in (default) white color. Once completed, the user can mark the task as done. Also the user can star any task i.e. mark it as important.
 
-| <img src="/images/image9.jpg" alt="Adding item" width="250"/>
-| <img src="/images/image8.jpg" alt="Item view" width="250"/>
-| <img src="/images/image20.jpg" alt="Strike out item" width="250"/>
-|
+| <img src="/images/image9.jpg" alt="Adding item" width="250"/> | <img src="/images/image8.jpg" alt="Item view" width="250"/> | <img src="/images/image20.jpg" alt="Strike out item" width="250"/> |
 | ---------------------------------- | -------------------------------- | ---------------------------------------- |
 | Adding task | View tasks | Mark task as done |
 
