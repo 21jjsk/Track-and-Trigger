@@ -14,7 +14,7 @@ This project was created as a part of the Object Oriented Programming Systems Co
 
 ## Technologies used:
 - Java
-- SQlite
+- SQLite
 - Firebase Auth
 
 ## Android Requirements:
