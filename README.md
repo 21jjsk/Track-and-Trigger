@@ -9,10 +9,12 @@ This project was created as a part of the Object Oriented Programming Systems Co
 **Team members**
 * [Jeevan Jyot Singh](https://github.com/21jjsk)
 * [Kruti Baraiya](https://github.com/krutibaraiya)
+* [Ojashvi Tarunabh](https://github.com/valarmorghulis42)
+* [Umang Agarwal](https://github.com/UmangAgarwal17)
 
 ## Technologies used:
 - Java
-- Sqlite
+- SQlite
 - Firebase Auth
 
 ## Android Requirements:
